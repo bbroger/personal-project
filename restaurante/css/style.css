@@ -1,0 +1,123 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+a:link{
+    text-decoration: none;
+    color:#000;
+}
+.navbar-nav>.nav-item{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.navbar-nav>.nav-item>.nav-link:hover{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #d35400;
+}
+.hero{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)), url('../img/hero.jpg') no-repeat center;
+    background-size:cover;
+    color:#fff;
+    background-attachment: fixed;
+    margin: 0px 0;
+}
+.text-hero{
+    padding-top:170px;
+}
+.dish-day{
+    width: 100%;
+    padding: 10px 50px;
+    background: #fff;
+}
+.thumb-dish{
+    width: 250px;
+    height: 200px;
+}
+.effect2{
+  position: relative;
+}
+.effect2:before, .effect2:after{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+.effect2:after{
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.fas{
+    color:#ff9900;
+}
+.card-img-top{
+    width: auto;
+    height: 200px;
+}
+.menu-restaurante{
+    width:100%;
+    height:500px;
+    background:#ccc;
+    margin: 20px 0;
+}
+.cardapio{
+    background: #ffcc99;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+.cardapio-lanche h2{
+    color: #353b48;
+    font-size: 1.5rem;
+}
+.cardapio-lanche p{
+    color: #7f8c8d;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-bottom: 1px inset #000;
+    padding-bottom: 10px;
+}
+.cardapio .tab-content .tab-pane{
+    padding: 5px 10px;
+}
+.preco{
+    color: #d35400;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+nav>.nav-tabs{
+    width: 800px;
+    border-bottom:none;
+}
+nav>div>a{
+    text-transform: uppercase;
+    color: #000;
+}
+.funcionamento{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)), url('../img/footer01.jpg') no-repeat center;
+    background-size:cover;
+    color:#fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 50px;
+}
+ul,li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.stylefooter{
+    color: #d35400;
+}
